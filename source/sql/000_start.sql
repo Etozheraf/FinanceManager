@@ -6,12 +6,13 @@ CREATE TABLE IF NOT EXISTS users
     login                     varchar(255) null,
     budget                    integer      not null,
     current_balance           integer      not null,
-    calculate_expiration_date time         not null
+    calculate_expiration_date TIME         not null
 );
 
 CREATE TABLE IF NOT EXISTS transactions
 (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    time TIME not null,
     sum INTEGER NOT NULL
 );
 

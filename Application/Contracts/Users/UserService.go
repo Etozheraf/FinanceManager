@@ -1,4 +1,4 @@
-package Contracts
+package Users
 
 type UserService interface {
 }

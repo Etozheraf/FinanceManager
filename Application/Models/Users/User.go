@@ -1,9 +1,12 @@
-package Models
+package Users
 
-import "time"
+import (
+	"github.com/google/uuid"
+	"time"
+)
 
 type User struct {
-	userId                    int
+	id                        uuid.UUID
 	login                     string
 	password                  string
 	budget                    int // income - mandatory expenses

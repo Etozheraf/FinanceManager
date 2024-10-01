@@ -1,4 +1,4 @@
-package Abstractions
+package Repositories
 
 type TransactionsRepository interface {
 	AddTransaction(sum int, description string, category string, userId int)

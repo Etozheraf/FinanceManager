@@ -1,4 +1,4 @@
-package Abstractions
+package Repositories
 
 type UserRepository interface {
 	GetUser(telegramId int)
