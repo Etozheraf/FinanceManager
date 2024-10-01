@@ -1,0 +1,9 @@
+database:
+  host:
+  username:
+  password:
+  dbname:
+  port:
+
+telegram:
+  secret:

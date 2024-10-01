@@ -1,5 +1,9 @@
 package main
 
+import (
+	_ "TheGreatestFinanceManagerEver/Infrastructure/DatabaseInitialization"
+)
+
 func main() {
-	print("Hello!")
+	print("hello world")
 }
